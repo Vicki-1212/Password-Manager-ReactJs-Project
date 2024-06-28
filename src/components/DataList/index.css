@@ -1,0 +1,52 @@
+.list-items {
+  border: 2px solid #7683cb;
+  border-radius: 5px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 300px;
+  margin-left: 10px;
+}
+
+.logo {
+  padding: 10px;
+  background-color: #10b981;
+  border-radius: 50%;
+  width: 40px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 3px;
+  font-weight: 300;
+}
+
+.delete-image {
+  height: 30px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.stars {
+  width: 120px;
+  height: 20px;
+}
